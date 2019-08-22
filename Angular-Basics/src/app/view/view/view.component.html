@@ -1,0 +1,14 @@
+<div class="border">
+  <h5>
+    Understanding Modules, Services, Dependency Injection, Rest API Calls.
+  </h5>
+  <div class="shift">
+    <input type="text" [(ngModel)]="name" />
+    <button (click)="search()">Search</button>
+    <div *ngIf="response">
+      <p>Id : {{response.id}}</p>
+      <p>Login : {{response.login}}</p>
+      <p>Organizations url : {{response.organizations_url}}</p>
+    </div>
+  </div>
+</div>
