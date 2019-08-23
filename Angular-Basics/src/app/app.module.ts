@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DateComponent } from './date/date.component';
 import { AddressCardComponent } from './address-card/address-card.component';
 import { ViewModule } from './view/view.module';
+import { RoutingIntroModule } from './routing-intro/routing-intro.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ViewModule } from './view/view.module';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    ViewModule
+    ViewModule,
+    RoutingIntroModule
   ],
   providers: [],
   bootstrap: [AppComponent]
